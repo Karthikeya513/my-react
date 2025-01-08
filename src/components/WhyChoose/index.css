@@ -1,0 +1,76 @@
+.why-choose-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("background-image.jpg"); /* Replace with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .why-choose-content {
+    max-width: 800px;
+    z-index: 1;
+  }
+  
+  .why-choose-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .why-choose-description {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+  }
+  
+  .why-choose-features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  
+  .why-choose-features span {
+    border-bottom: 2px solid #ff6600;
+    padding-bottom: 2px;
+  }
+  
+  .why-choose-button {
+    background-color: #ff6600;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .why-choose-button:hover {
+    background-color: #e05500;
+  }
+  
+  .why-choose-image {
+    margin-top: 40px;
+  }
+  
+  .why-choose-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+  

@@ -1,0 +1,151 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container */
+  .container {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #0b1c39;
+  }
+  
+  /* Intro Section */
+  .intro-section {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .intro-text {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #ffffff;
+  }
+  
+  /* About Section */
+  .about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+  }
+  
+  /* Left Section */
+  .about-left {
+    flex: 1;
+  }
+  
+  .image {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .progress-bar-container {
+    margin-top: 20px;
+  }
+  
+  .progress-item {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .progress-item p {
+    flex: 1;
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .progress {
+    flex: 3;
+    background-color: #e0e0e0;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .progress-fill {
+    background-color: #007bff;
+    height: 100%;
+    transition: width 0.3s ease;
+  }
+  
+  .progress-percent {
+    flex: 1;
+    font-size: 12px;
+    text-align: right;
+  }
+  
+  /* Right Section */
+  .about-right {
+    flex: 1;
+  }
+  
+  .section-title {
+    font-size: 14px;
+    color: #ff6f3c;
+    margin-bottom: 5px;
+  }
+  
+  .main-title {
+    font-size: 24px;
+    color: #0b1c39;
+    margin-bottom: 10px;
+  }
+  
+  .divider {
+    border: 0;
+    border-top: 2px solid #007bff;
+    width: 60px;
+    margin: 10px 0 20px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .card-icon {
+    font-size: 20px;
+    color: #ff6f3c;
+  }
+  
+  .card h3 {
+    font-size: 16px;
+    color: #0b1c39;
+    margin: 0;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #555555;
+  }
+  

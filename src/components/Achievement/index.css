@@ -1,0 +1,113 @@
+/* AchievementsSection.css */
+  
+  .achievements-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    background-color: #0d1b2a;
+    border-radius: 10px;
+    color: #ffffff;
+    margin-bottom: 10%;
+    min-height: 100vh;
+  }
+  
+  .left-content {
+    max-width: 45%;
+  }
+  
+  .left-content h3 {
+    color: #f76c3b;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .left-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.3;
+  }
+  
+  .left-content p {
+    font-size: 18px;
+    color: #d0d0d0;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .start-learning-btn {
+    background-color: #f76c3b;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .start-learning-btn:hover {
+    background-color: #e05b2c;
+  }
+  
+  .right-content {
+    max-width: 50%;
+    text-align: center;
+  }
+  
+  .right-content h3 {
+    color: #f76c3b;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .right-content h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .achievement-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .Lcard {
+    background-color: #1a2b42;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Lcard h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #f76c3b;
+    margin-bottom: 10px;
+  }
+  
+  .Lcard p {
+    font-size: 16px;
+    color: #d0d0d0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .achievements-section {
+      flex-direction: column;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .left-content {
+      max-width: 75%;
+    }
+    .right-content {
+      margin-top: 10%;
+      max-width: 75%;
+    }
+  }
